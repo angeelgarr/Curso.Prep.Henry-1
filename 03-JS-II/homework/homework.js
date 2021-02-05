@@ -6,11 +6,14 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
     // Tu código:
 
-    if (100 > 10 || 10 === 10) {
+    if (x > y ) {
+	return x;
+    }
+    return y;
     console.log('Ambas declaraciones son ciertas, este código se ejecutará');
 }
 
-}
+
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
