@@ -1,0 +1,32 @@
+* for
+
+Es un bucle que contiene tres partes entre paréntesis
+
+     for (let i = 0; i < 11; i++)
+
+La primera parte es la inicialización, la variable que lleva la cuenta.
+La segunda parte es la condición, se evaluara cada vez que comienza una iteración del bucle.
+La tercera es la actualización, indica los cambios que queremos ejecutar en la variables.
+ 
+* Operadores lógicos   
+
+** &&
+
+Significa "y" o "AND"
+
+Si ambas expresiones son verdaderas arrojara (true).
+Si una de ellas es falsa ,sera (false).
+
+** ||
+
+Significa "o" u  "OR"
+
+Si una o ambas expresiones son verdaderas arrojara (true) ,y si ambas son falsas (false).
+
+** !
+
+Significa "no" o "NOT"
+
+Devuelve un valor booleano opuesto al que se le pasa.
+
+ 
