@@ -8,9 +8,9 @@ function obtenerMayor(x, y) {
 
     if (x > y ) {
 	return x;
+    } else  {
+	return y;
     }
-    return y;
-    console.log('Ambas declaraciones son ciertas, este código se ejecutará');
 }
 
 function mayoriaDeEdad(edad) {
