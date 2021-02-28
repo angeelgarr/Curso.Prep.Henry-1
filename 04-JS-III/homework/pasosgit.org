@@ -1,0 +1,7 @@
+* Pasos
+
+git status
+
+
+git commit -m 'voy bien'
+
