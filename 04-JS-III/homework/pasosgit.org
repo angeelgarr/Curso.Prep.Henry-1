@@ -5,3 +5,18 @@ git status
 
 git commit -m 'voy bien'
 
+
+git log
+
+
+git add prueba.js
+
+
+git commit etc
+
+git status
+
+git push origin master
+
+
+git pull
