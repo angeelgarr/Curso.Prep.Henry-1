@@ -68,7 +68,10 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-return  x == y;
+    if (x === y){
+	return true;
+    } else {
+	return false;}
 
 
 }
@@ -160,6 +163,15 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
     // Tu código:
+
+   var resto = num % 1;
+  var entero = num - resto;
+  if (resto >= 0.5) {
+     return entero + 1;
+   } else {
+     return entero;
+   }
+
 
     return Math.round(num);
     
