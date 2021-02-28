@@ -108,7 +108,8 @@ function mayorQueCincuenta(num) {
   // Tu código:
 if(num > 50)
 {return true;}
-else{return false;}
+    else{
+return false;}
 }
 
 function obtenerResto(x, y) {
@@ -132,8 +133,7 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
     // Tu código:
 
-     if(num % 2
- === 1
+     if(num % 2 === 1
 )
 {return true;}
 else
@@ -150,7 +150,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
     // Tu código:
-    return num * num * num;
+    return Math.pow(num, 3);
 
 }
 
