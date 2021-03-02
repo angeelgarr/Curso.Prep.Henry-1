@@ -164,13 +164,13 @@ function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
     // Tu código:
 
-   var resto = num % 1;
-  var entero = num - resto;
-  if (resto >= 0.5) {
-     return entero + 1;
-   } else {
-     return entero;
-   }
+  // var resto = num % 1;
+ // var entero = num - resto;
+//  if (resto >= 0.5) {
+//     return entero + 1;
+  // } else {
+ //    return entero;
+ //  }
 
 
     return Math.round(num);
@@ -198,14 +198,14 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
 
-    if(numero === 0) {
-    return false;
-  }
-  else if(numero > 0) {
+    if(numero > 0) {
     return "Es positivo";
   }
+  else if(numero < 0) {
+    return "Es negativo";
+  }
   else {
-      return "Es negativo";}
+      return false;}
 }
 
 function agregarSimboloExclamacion(str) {
@@ -220,8 +220,8 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = nombre + ' ' + apellido;
-  return combinado;
+ // var combinado = nombre + ' ' + apellido;
+  return nombre + ' ' + apellido;
 }
 
 function obtenerSaludo(nombre) {
@@ -249,7 +249,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-    return(base * altura)/2
+    return (base * altura)/2
 }
 
 
@@ -267,7 +267,8 @@ function esVocal(letra){
     //Escribe tu código aquí
 if(letra.length > 1){
     return "Dato incorrecto"
-  }
+}
+    
   if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
       return "Es vocal"
   }
