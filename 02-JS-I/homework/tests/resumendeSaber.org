@@ -1,0 +1,37 @@
+* Var
+
+Son espacios de memoria a los que ponemos un nombre y esto permite
+almacenar datos para luego poder modificarlos.
+
+var almaceno = 'datos';
+
+** Tipos de var 
+
+Son cinco:
+
+- Texto(strings): almacenan cadena de caracteres.
+- Numero: almacenan números y podemos realizar operaciones matemáticas como +, -, *, /, %.
+- Booleanas: true(verdadero), falso(falso), pueden valer 0 o 1.
+Podemos realiza operaciones como ==(igualdad en contenido), ===(igualdad en tipo de variable y contenido),!(negación), !=(no igual que), &&(y), ||(o), < >(menor o mayor).
+
+- Objetos: almacenan diversas propiedades.
+- Funciones: es un subprograma que pude ser llamado por codigo externo.
+
+* Declaraciones if
+
+Estructura de control utilizada para tomar deciciones.
+
+if (meAmas) { 
+   return teAmo
+Es como decir que si(if) me amas pues, yo te amo.
+  
+* Valores booleanos
+
+Son intuitivos, algo asi:
+
+if (meAmas) { 
+return true;
+
+if (nomeAmas)
+return false;
+
