@@ -1,0 +1,18 @@
+* If
+
+Basicamente, repetir una accion varias veces.
+Diseñado específicamente para trabajar con series de números (longitud de
+cadena, elementos de un array, propiedades de un objeto, etc...) y nos provee de una
+estructura más sencilla para gestionar el flujo.
+
+Tiene tres partes:
+
+- Expresion de inicio. var i = 0
+- Evaluar expresion. it.length
+- Ejecuta la instruccion. i++
+
+y, vuelva al paso 2.
+
+Luce de esta manera :
+
+for(var i = 0,i<it.length,i++)
