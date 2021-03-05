@@ -1,0 +1,14 @@
+* Array 
+
+Son arreglos o matrices, son objetos ya definidos por Javascript
+que nos permiten almacenar listas de valores.
+
+Diferentes a var porque este solo almacena un valor.
+Los arrays almacenan múltiples valores de forma independiente.
+
+Para acceder a estas listas se hace a través de un índice.                            
+
+
+var array = [1, 'dos', true, 'hasta luego'];
+
+
