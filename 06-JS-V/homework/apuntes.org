@@ -1,0 +1,126 @@
+* Constructors , new
+
+#+BEGIN_js
+
+function Car(marca, cv, color) {
+   this.marca = marca;
+   this.cv = cv;
+   this.color = color;
+}
+
+var audi = new Car('audi', 1500, 'verde');
+var renault = new Car('renault', 1234, 'azul');
+
+console.log(renault)
+
+// 
+
+
+function Car(marca, cv, color) {
+   this.marca = marca;
+   this.cv = cv;
+   this.color = color;
+}
+
+var audi = new Car('audi', 1500, 'verde');
+var renault = new Car('renault', 1234, 'azul');
+
+console.log(renault)
+
+#+END_js
+
+* Prototype  
+
+referencia a otro objeto llamado prototype, el prototype 
+del ejemplo anterior es Car
+
+obj.__proto__
+
+
+#+BEGIN_js
+
+function Persona(nombre, apellido){
+    this.nombre = nombre || 'Juan';
+    this.apellido = apellido || 'Perez';
+    
+}
+Persona.prototype,getNombre = function (){
+    return this.nombre + ' ' + this.apellido;
+    
+}
+
+var toni = new Persona('Toni', 'Valencia');
+
+var tincho = new Persona('Emi', 'Osorio');
+
+var Fely = new Persona('Fely', 'Rozo');
+
+
+toni.getNombre()
+Fely.getNombre()
+tincho.getNombre()
+
+
+#+END_js
+
+* Object.create y Pure Pototypal Inheritance
+
+ Object.create recibe un objeto como parametro
+#+BEGIN_js
+
+var persona = {
+nombre: 'Defecto',
+apellido: 'Defecto'
+};
+
+var toni = Object.create(persona);
+
+console.log(toni)
+console.log(toni.__proto__)
+
+
+
+
+#+END_js
+
+* ES6 y Clases (class)
+
+#+BEGIN_js
+
+class Persona {
+
+constructor (nombre, apellido){ 
+this.nombre = nombre,
+this.apellido = apellido
+
+}
+
+saludar () {
+
+console.log('Hola!' + this.nombre);
+}
+}
+
+var toni = new Persona('Toni', 'Tralice');
+
+toni.saludar();
+
+#+END_js
+
+
+#+BEGIN_js
+
+class Empleado extends Persona {
+constructor (nombre, apellido, empleo, sueldo){
+super(nombre, apellido);
+this.empleo = empleo;
+this.sueldo = sueldo;
+}
+}
+
+var toni = new Empleado('Toni'. 'Tralice', 'Profesor', 100);
+
+toni.saludar();
+
+
+#+END_js
