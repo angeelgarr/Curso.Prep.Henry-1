@@ -1,0 +1,53 @@
+
+
+
+
+*    Objetos
+
+Son colecciones de propiedades.Contienen información sobre una cosa.
+En términos generales son como los sustantivos : gato, casa, auto, 
+computador, etc ,etc ,etc ...
+
+*    Propiedades
+
+Es una asociación entre un nombre y un valor(key:value[key:value]).
+En términos generales son los adjetivos : el gato es rojo, la casa es grande 
+y el auto tiene ruedas.
+
+*    Métodos
+
+Las cosas que pueden realizar los objetos son sus capacidades o 
+funciones: el gato de color rojo ronronea.
+Siguiendo la linea de pensamiento gramatical vendrían siendo los verbos.
+
+*    Bucle for…in
+
+Es el segundo bucle que nos ha ensenado Henry, para diferenciarlo 
+lo llaman "for... in loop". Recorre las claves(key) y finaliza cuando 
+se hayan iterado todas las claves.
+
+*    Notación de puntos vs notación de corchetes
+
+En realidad no existe un versus o competencia, son como sinonimos
+(y, dele con la gramatica).
+
+Un ejemplo es mejor que mil comentarios:
+
+const usuario = {
+    username: 'juan.perez',
+    password: 'loremipsumpwd123',
+    lovesJavascript: true,
+    favoriteNumber: 42
+};
+
+Para invocarlos:
+ 
+Puntos;
+
+usuario.username
+
+Corchetes;
+
+usuario['username']
+
+Happy Hacking ;)
