@@ -1,0 +1,40 @@
+* Prototype
+
+
+Todos los objetos en JavaScript tienen una propiedad 
+especial llamada prototype que es una referencia a otro objeto. 
+
+Los prototipos son objetos que pueden tener propiedades (funciones y métodos), 
+ademas pueden ser utilizados por otros objetos para heredar sus propiedades, 
+esto es muy útil para encapsular y reutilizar el código, esto te da la posibilidad 
+de adaptar tus códigos al diseño orientada a objetos.
+
+
+Distintas metodologías de la Orientación a Objetos:
+
+    Herencia
+    Encapsulamiento
+    Abstracción
+    Polimorfismo
+
+Las ventajas:
+
+    Disponer de programación de alto nivel.
+    Disponer de diferentes formas de crear objetos.
+    Tener herencia en las propiedades y métodos.
+    
+
+
+* Constructors (Class)
+
+Código que construye y configura un objeto cuando se crea con new. 
+Todas las clases tienen un constructor, si no escribimos nada 
+dentro de class se crea por defecto un constructor vacío. 
+
+Los constructores no devuelve nada, no hace falta que lo hagan, 
+ya está claro que queremos crear un nuevo objeto al invocarlos con new y, por lo tanto, 
+los constructores siempre devuelven this. 
+El constructor puede devolver un objeto 
+diferente al que se está construyendo, por ejemplo, de otra clase o un objeto literal. 
+Si el constructor, en vez de devolver this, devuelve otro objeto, 
+el resultado de llamar a new será que obtenemos ese valor retornado.
