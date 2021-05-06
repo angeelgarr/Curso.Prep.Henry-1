@@ -1,0 +1,37 @@
+* Callback
+
+  Llamada de vuelta o callback es una función que
+  recibe como argumento otra función y la ejecuta.
+  Cuando pasamos un callback solo pasamos la función
+  y no la ejecutamos en el parametro.
+  En escencia es un patron para solucionar problemas
+  comunes y ayudan a no repetir codigo.Ese algo que queremos que
+  haga lo ejecutar la función que recibe nuestro parámetro.
+  ¿Medio confuso no?
+
+  Un buen ejemplo de función callback son los controladores de
+  eventos, que se utilizan, por ejemplo, en elementos HTML como
+  los botones. El evento podría ser un clic del ratón que hace
+  que se ejecute el callback, y la función en sí misma podría
+  provocar el redireccionamiento a otra página o transmitir un
+  valor que se haya introducido en un formulario.
+
+  document.getElementById("Button1").addEventListener("click", function() {
+  console.log("Se ha pulsado el botón");
+  }, false);
+
+  En este ejemplo el callback es EventListener.
+
+  Otro pero sencillo:
+
+  function hagoAlgo(callback) {
+    callback();
+    }
+
+  hagoAlgo(function(){
+  console.log('Hola Henry !!');
+  })
+
+  
+
+  
